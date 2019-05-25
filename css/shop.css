@@ -10,6 +10,7 @@ i{
 }
 a{
     text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
 }
 html{
     font-size: 100px;

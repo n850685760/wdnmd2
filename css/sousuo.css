@@ -8,6 +8,7 @@ i{
     font-style: normal;
 }
 a{
+    -webkit-tap-highlight-color: transparent;
     text-decoration: none;
     color:#41b2fc;
 }
