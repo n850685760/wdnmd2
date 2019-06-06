@@ -11,9 +11,33 @@ a{
     text-decoration: none;
     -webkit-tap-highlight-color: transparent;
 }
-html{
-    font-size: 100px;
-}
+
+html {
+    font-size: 100px; }
+
+body {
+    font-size: 16px; }
+
+@media screen and (min-width: 320px) {
+    html {
+        font-size: 42.66667px; } }
+
+@media screen and (min-width: 360px) {
+    html {
+        font-size: 48px; } }
+
+@media screen and (min-width: 375px) {
+    html {
+        font-size: 50px; } }
+
+@media screen and (min-width: 412px) {
+    html {
+        font-size: 54.93333px; } }
+
+@media screen and (min-width: 414px) {
+    html {
+        font-size: 55.2px; } }
+
 header{
     display: flex;
     justify-content: space-between;
@@ -90,12 +114,12 @@ header .iconfont{
 }
 .tishiimg{
     position: absolute;
-    top:2rem;
-    left: 2.4rem;
+    top:1.5rem;
+    left: 1.1rem;
 }
 .kong span2{
     position: absolute;
-    top:4.5rem;
+    top:6.5rem;
     left: 1.9rem;
     color: #000000;
     letter-spacing: 0.01rem;
@@ -104,7 +128,7 @@ header .iconfont{
 }
 .kong span3{
     position: absolute;
-    top: 5rem;
+    top: 7rem;
     left: 2.8rem;
     letter-spacing: 0.01rem;
     color: #000000;
