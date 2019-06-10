@@ -9,6 +9,15 @@ i{
     font-style: normal;
 }
 a{
+    margin-right: 0.2rem;
+    padding-bottom: 0.33rem;
+    font-size: 0.32rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.4rem;
+    letter-spacing: 0.01rem;
+    color: #000000;
+    opacity: 0.6;
     text-decoration: none;
     -webkit-tap-highlight-color: transparent;
 }
@@ -71,7 +80,10 @@ header .iconfont{
     color: #36a8fe;
     box-sizing: border-box;
 }
-
+input{
+    border: none;
+    outline: none;
+}
 .title ul{
     margin-left: 16%;
     width: 5.18rem;
@@ -134,7 +146,7 @@ header .iconfont{
 .content ul > li:nth-child(2){
     position: relative;
 }
-.content ul > li:nth-child(2) > span:before{
+.content ul > li:nth-child(2):before{
     position: absolute;
     content: '';
     width: 0.08rem;
@@ -145,7 +157,7 @@ header .iconfont{
     top: 0.53rem;
     left: 0.1rem;
 }
-.content ul > li:nth-child(2) > span{
+.content ul > li:nth-child(2) > input{
     margin-left: 0.3rem;
 }
 .content ul > li:nth-child(2) > div{
@@ -174,9 +186,12 @@ header .iconfont{
     padding: 0.17rem 0.75rem;
     background: rgba(59,172,254,0.1);
     text-align: center;
-    color:  #3bacfe;
     border-radius: 0.26rem;
     margin-bottom: 0.32rem;
+}
+.button > a{
+    color:  #3bacfe;
+    font-size: 0.3rem;
 }
 body > span{
     position: relative;

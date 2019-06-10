@@ -9,6 +9,7 @@ i{
     font-style: normal;
 }
 a{
+    color:  #3bacfe;
     text-decoration: none;
     -webkit-tap-highlight-color: transparent;
 }
@@ -56,6 +57,10 @@ header span{
 img{
     width: 100%;
     height: 100%;
+}
+input{
+    border: none;
+    outline: none;
 }
 article{
     box-sizing: border-box;
@@ -113,7 +118,7 @@ ul > li:first-child > span:nth-child(2){
 ul > li:nth-child(2){
     position: relative;
 }
-ul > li:nth-child(2) > span:before{
+ul > li:nth-child(2):before{
     position: absolute;
     content: '';
     width: 0.08rem;
@@ -124,7 +129,7 @@ ul > li:nth-child(2) > span:before{
     top: 0.53rem;
     left: 0.1rem;
 }
-ul > li:nth-child(2) > span{
+ul > li:nth-child(2) > input{
     margin-left: 0.3rem;
 }
 ul > li:nth-child(2) > div{

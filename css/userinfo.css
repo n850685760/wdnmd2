@@ -31,6 +31,10 @@ body {
 @media screen and (min-width: 414px) {
     html {
         font-size: 55.2px; } }
+input{
+    border: none;
+    outline: none;
+}
 header{
     display: flex;
     justify-content: space-between;
@@ -113,7 +117,7 @@ ul > li:nth-child(3) > span:nth-child(2){
 ul > li:nth-child(4){
     position: relative;
 }
-ul > li:nth-child(4) > span:before{
+ul > li:nth-child(4):before{
     position: absolute;
     content: '';
     width: 0.08rem;
@@ -124,7 +128,7 @@ ul > li:nth-child(4) > span:before{
     top: 0.53rem;
     left: 0.1rem;
 }
-ul > li:nth-child(4) > span{
+ul > li:nth-child(4) > input{
     margin-left: 0.3rem;
 }
 /*ul > li:nth-child(2) > div{*/
@@ -156,9 +160,11 @@ ul > li >span {
     padding: 0.17rem 0.75rem;
     background: rgb(59,172,254);
     text-align: center;
-    color:  white;
     border-radius: 0.26rem;
     margin-bottom: 0.32rem;
+}
+.button > a{
+    color:  white;
 }
 body > span{
     position: relative;
